@@ -13,18 +13,7 @@ This project analyzes 5,076+ synthetic transactions to discover purchasing patte
 - **mlxtend** - Association rule mining (Apriori algorithm)
 - **scikit-learn** - K-Means clustering
 - **matplotlib/seaborn** - Data visualization
-- **fpdf** - PDF presentation generation
 
-## 📁 Project Structure
-
-```
-├── Buth_Kade.ipynb              # Main analysis notebook
-├── buth_kade_transactions.csv   # Dataset (5,076 transactions)
-├── present.py                   # PDF presentation generator
-├── presentation_script.md       # 2:30 min presentation script
-├── slide_presentation_script.md # 1:30 min fast script
-└── technical_walkthrough_script.md # Cell-by-cell explanation
-```
 
 ## 🚀 Quick Start
 
@@ -43,10 +32,6 @@ This project analyzes 5,076+ synthetic transactions to discover purchasing patte
    - Open `Buth_Kade.ipynb` in Jupyter Notebook or VS Code
    - Execute all cells sequentially
 
-4. **Generate presentation**
-   ```bash
-   python present.py
-   ```
 
 ## 🎯 Key Features
 
